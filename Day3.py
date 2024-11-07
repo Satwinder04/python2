@@ -119,14 +119,15 @@
 # else:
 #     print("not Prime")
 
-n = int(input("enter value of n "))
-is_prime=True
-for i in range(2,int(n/2)+1):
-    if n%i==0:
-        is_prime =False
-        break
+# n = int(input("enter value of n "))
+# is_prime=True
+# for i in range(2,int(n/2)+1):
+#     if n%i==0:
+#         is_prime =False
+#         break
+# if is_prime:
+#     print("prime")
+# else:
+#     print("not Prime")
 
-if is_prime:
-    print("prime")
-else:
-    print("not Prime")
+
