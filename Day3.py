@@ -130,4 +130,28 @@
 # else:
 #     print("not Prime")
 
+# prime
+#
+# n=int(input())
+# is_prime = True
+# for i in range(0,n):
+#     if(n%i==0):
+#         is_prime=false
+#         break
+# if(is_prime):
+#     print("prime")
+# else:
+#     print("not_prime")
 
+
+for i in range(0,11):
+    if i==5:
+        break
+    print(i)
+print("print")
+
+for i in range(0,11):
+    if i==5 or i==3 or i==4:
+        continue
+    print(i)
+print("print")
