@@ -53,6 +53,24 @@
 
 # Print Squares of Numbers
 # Write a Python program that uses a for loop to print the squares of numbers from 1 to 10.
+#
+# for i in range(0,11):
+#     print(f"Square of {i} is" , i**2)
 
-for i in range(0,11):
-    print(f"Square of {i} is" , i**2)
+
+
+#
+# n=int(input("enter value of n "))
+# for i in range(n):
+#     for j in range(n-i-1):
+#         print(" ",end= " " )
+#     for j in range(i+1):
+#         print(j,end= " " )
+#     for j in range(i):
+#         print("x",end= " " )
+#     print()
+#
+#   #       x
+#   #     x x x
+#   #   x x x x x
+#   # x x x x x x x
