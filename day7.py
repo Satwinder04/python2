@@ -133,4 +133,3 @@ from turtledemo.sorting_animate import ssort
 # s = input("Enter a string: ")
 # vowel_count = count_vowels(s)
 # print(f"Number of vowels in the string: {vowel_count}")
-
