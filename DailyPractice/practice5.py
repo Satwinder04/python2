@@ -1,4 +1,6 @@
 #anagram
+# s= input("enter first string ")
+# d= input("enter second string ")
 # if len(s)==len(d):
 #     if sorted(s)==sorted(d):
 #         print("anagram")

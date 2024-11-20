@@ -30,18 +30,18 @@ from turtledemo.sorting_animate import ssort
 
 # Reverse a string
 
-# s= input()
-# rev=""
-# for i in s:
-#     rev = i+rev
+s= input()
+rev=""
+for i in s:
+    rev = i+rev
 # print(s+" "+rev)
-#
+
 # rev=s[::-1]
-# if(s==rev):
-#     print("palindrome")
-# else:
-#     print("not palindrome")
-# print(rev)
+if(s==rev):
+    print("palindrome")
+else:
+    print("not palindrome")
+print(rev)
 
 
 # anagram
@@ -115,7 +115,7 @@ from turtledemo.sorting_animate import ssort
 
 
 
-# pailendrom
+# palindrome
 # anagram
 # count the no. vowels in the sring
 # count the no. words
