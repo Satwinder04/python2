@@ -68,18 +68,18 @@
 #     print("invalid input")
 
 
-n = int(input("Enter value of n: "))
-print(f"Prime factors of {n} are:")
+# n = int(input("Enter value of n: "))
+# print(f"Prime factors of {n} are:")
 
-for i in range(2, n + 1):
-    if n % i == 0:
-        isPrime = 1
-        for j in range(2, i // 2 + 1):
-            if i % j == 0:
-                isPrime = 0
-                break
-        if isPrime == 1:
-            print(i)
+# for i in range(2, n + 1):
+#     if n % i == 0:
+#         isPrime = 1
+#         for j in range(2, i // 2 + 1):
+#             if i % j == 0:
+#                 isPrime = 0
+#                 break
+#         if isPrime == 1:
+#             print(i)
 
 #
 #
