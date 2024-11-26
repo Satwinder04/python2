@@ -6,7 +6,7 @@
 # for i in sp:
 #     print(i[-1::-1], end=" ")
 # from pickletools import read_stringnl_noescape
-from multiprocessing.pool import worker
+# from multiprocessing.pool import worker
 
 # from tasks.Task14 import largest
 
@@ -71,13 +71,13 @@ from multiprocessing.pool import worker
 
 
 
-# s = input("Enter a string: ")
-# sp = s.split()
-# lgWord = ""
-# maxLen = 0
-# for i in sp:
-#     wordLen = len(i)
-#     if wordLen > maxLen:
-#         maxLen = wordLen
-#         lgWord = i
-# print(lgWord)
+s = input("Enter a string: ")
+sp = s.split()
+lgWord = ""
+maxLen = 0
+for i in sp:
+    wordLen = len(i)
+    if wordLen > maxLen:
+        maxLen = wordLen
+        lgWord = i
+print(lgWord)

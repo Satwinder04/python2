@@ -1,4 +1,4 @@
-from turtledemo.sorting_animate import ssort
+# from turtledemo.sorting_animate import ssort
 
 # s="Satwinder04"
 # d="Satwinder"
@@ -30,18 +30,18 @@ from turtledemo.sorting_animate import ssort
 
 # Reverse a string
 
-s= input()
-rev=""
-for i in s:
-    rev = i+rev
-# print(s+" "+rev)
+# s= input()
+# rev=""
+# for i in s:
+#     rev = i+rev  
+# # print(s+" "+rev)
 
-# rev=s[::-1]
-if(s==rev):
-    print("palindrome")
-else:
-    print("not palindrome")
-print(rev)
+# # rev=s[::-1]
+# if(s==rev):
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+# print(rev)
 
 
 # anagram

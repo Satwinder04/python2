@@ -25,10 +25,7 @@
 import random
 gnum=random.randint(1,100)
 steps=0
-
-
 while True:
-
     n=int(input("Enter the number "))
     steps+=1
     if n==gnum:
@@ -38,8 +35,6 @@ while True:
         print("Please enter the higher ")
     else:
         print("Please enter the lower number")
-
-
 
 
 
