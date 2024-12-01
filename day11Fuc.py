@@ -2,7 +2,6 @@
 #     print("hello")
 #
 # myfuc() # calling function
-# from time import process_time
 
 
 # def myfuc1(name):
@@ -130,17 +129,11 @@
 # x=lambda a,b:a+10+b
 # print(x(5,10))
 
-#
+
 # x=lambda a,b,c:a+10+b+c
 # print(x(5,10,10))
 # lst=[1,2,3,4,5,6,7,8,9,6,3]
-# def ev(x):
-#     return x%2
-#
-# for i in list:
-#     print(ev(list[i]))
-
-# ev=list(filter(lambda x:x%2==0,lst))
+# ev=sorted(list(filter(lambda x:x%2==0,lst)),reverse=True)
 # print(ev)
 #
 # city=["patiala","rajpura","ambrsr","patna"]
@@ -148,7 +141,7 @@
 #     return len(city)
 # sort= sorted(city,key=leng)
 # print(sort)
-
+#
 # sort =sorted(city,key= lambda x:len(x))
 # print(sort)
 
@@ -166,7 +159,10 @@
 # z= zip(a,b)
 # print(list(z))
 
-a=["java","python","js","c++"]
-b=[50,60,70,80]
-z= zip(a,b)
-print(list(z))
+
+# def func(a,b):
+#     z= zip(a,b)
+#     print(list(z))
+# a=["java","python","js","c++"]
+# b=[50,60,70,80]
+# func(a,b)
