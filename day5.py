@@ -21,25 +21,17 @@
 #     s=temp
 # print(temp,end=" ")
 #
-#
-import random
-gnum=random.randint(1,100)
-steps=0
-while True:
-    n=int(input("Enter the number "))
-    steps+=1
-    if n==gnum:
-        print(f"Number is found in {steps} steps")
-        break
-    elif n<gnum:
-        print("Please enter the higher ")
-    else:
-        print("Please enter the lower number")
-
-
-
-
-
-
-
-
+# #
+# import random
+# gnum=random.randint(1,100)
+# steps=0
+# while True:
+#     n=int(input("Enter the number "))
+#     steps+=1
+#     if n==gnum:
+#         print(f"Number is found in {steps} steps")
+#         break
+#     elif n<gnum:
+#         print("Please enter the higher ")
+#     else:
+#         print("Please enter the lower number")
