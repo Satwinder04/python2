@@ -59,5 +59,3 @@
 # # print(ob.brand)
 # # print(ob.model)\
 # print(ob)
-
-
