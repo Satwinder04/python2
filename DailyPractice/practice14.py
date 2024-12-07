@@ -113,7 +113,7 @@ class Product():
     def set_discount(self,dis):
         # self.dis=dis
         for key,value in Product.ProductList.items():
-            temp=( (value * dis)/100)
+            temp=(value-(value * dis)/100)
             Product.ProductList[key]=temp
     def display(self):
         for i,j in Product.ProductList.items():
