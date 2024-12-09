@@ -71,7 +71,7 @@ import datetime
 # # print(f"{date.year}-{date.month}-{date.day} {time.hour}:{time.minute}:{time.second}:{time.microsecond} ")
 # print(date,time)
 #
-import calendar
-
-for day in calendar.day_name:
-    print(day)
+# import calendar
+#
+# for day in calendar.day_name:
+#     print(day)

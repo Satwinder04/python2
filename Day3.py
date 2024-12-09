@@ -144,14 +144,18 @@
 #     print("not_prime")
 
 
-for i in range(0,11):
-    if i==5:
-        break
-    print(i)
-print("print")
+# for i in range(0,11):
+#     if i==5:
+#         break
+#     print(i)
+# print("print")
+#
+# for i in range(0,11):
+#     if i==5 or i==3 or i==4:
+#         continue
+#     print(i)
+# print("print")
 
-for i in range(0,11):
-    if i==5 or i==3 or i==4:
-        continue
-    print(i)
-print("print")
+n=123
+ar = [int(i) for i in str(n)]
+print(ar)
