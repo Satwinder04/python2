@@ -12,9 +12,9 @@
 # s=int(input())
 # fizz_buzz(s)
 #
-from imaplib import Flags
-from itertools import count
-from multiprocessing.reduction import duplicate
+# from imaplib import Flags
+# from itertools import count
+# from multiprocessing.reduction import duplicate
 
 # def sum(a,b):
 #     return a+b
@@ -167,9 +167,9 @@ from multiprocessing.reduction import duplicate
 # print(prime_numbers(10, 20))
 
 
-list=[3,4,5,6,7]
-list2=list.sort()
-secondlargest=(len(list2)-2)
-print(secondlargest)
+# list=[3,4,5,6,7]
+# list2=list.sort()
+# secondlargest=(len(list2)-2)
+# print(secondlargest)
 
 # print(list[secondlargest])
