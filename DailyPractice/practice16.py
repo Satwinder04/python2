@@ -17,9 +17,9 @@
 #         print(self.num_doors)
 # obj=Car(4,"tyota","crola")
 # obj.display()
-
-
-
+#
+#
+#
 # 2. Define a class Shape with a method area that raises a NotimplementedError. Create subclasses Rectangle and Circle that implement the area() method.
 # import math
 # class Shape:
@@ -43,7 +43,7 @@
 # r.area()
 # c=Circle(2)
 # c.area()
-
+#
 # 3. Write a Python program where a class Animal has a method make_sound(). Create subclasses Dog, Cat, and Cow that override the make_sound method to print their respective sounds.
 # class Animal:
 #     def make_sound(self):
@@ -67,7 +67,7 @@
 # obj2.make_sound()
 # obj3 = Cow()
 # obj3.make_sound()
-
+#
 # 4. Create a class Person with attributes name and age. Derive a class Employee from Person that adds employee_id and salary Implement methods to display details for both classes.write code without comment
 # class Person:
 #     def __init__(self,name,age):
@@ -85,7 +85,7 @@
 #
 # obj2=Employee()
 # obj2.display(123456,12379876)
-
+#
 #
 # class Person:
 #     def __init__(self,name,age):
@@ -106,7 +106,7 @@
 #         print(self.salay)
 # obj=Emp("johuhiasidj",12345,12345678,123456785678)
 # obj.display()
-
+#
 # 5. Write a function play_sound(animal) that takes an object of any subclass of Animal and calls its sound() method. Create subclasses of Animal to demonstrate polymorphism.
 # class Animal:
 #     def play_sound(self):
@@ -127,11 +127,11 @@
 # P.play_sound()
 # a=Aman()
 # a.play_sound()
-
+#
 # 6. Define a base class Appliance with a method turn_on(). Create subclasses Washing Machine,
 # Refrigerator, and Microwave that override the tum_on() method. Write a program to demonstrate calling
 # the method for different objects using a loop.
-
+#
 # class Appliance:
 #     def turn_on(self):
 #         print("All")
@@ -147,7 +147,7 @@
 # lst=[WashingMachine(),Refrigerator(),Microwave()]
 # for i in lst:
 #     i.turn_on()
-
+#
 # 7. Write a program with a base class Shape and subclasses Square, Triangle, and Circle. Implement a method draw in each subclass and demonstrate polymorphism using a loop to call draw on a list of shapes.
 # class Shape:
 #     def draw(self):
@@ -166,8 +166,8 @@
 # for i in lst:
 #     obj=i
 #     obj.draw()
-
-
+#
+#
 # 8. Create a class hierarchy for Transport with subclasses Airplane, Ship, and Car. Each subclass should override a method move(). Write a program to demonstrate polymorphism.
 # class Transport:
 #     def move(self):
