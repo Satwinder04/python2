@@ -47,41 +47,41 @@ from time import sleep
 # 4. Implement a class Product with private attributes price and stock.
 # Use getter and setter methods to ensure the price and stock values
 # cannot be negative.
-
-class Product:
-    def __init__(self,price,stock):
-        self.__price=price
-        self.__stock=stock
-
-    @property
-    def price(self):
-        return self.__price
-
-    @price.setter
-    def price(self,new_price):
-        if new_price>0:
-            self.__price=new_price
-        else:
-            print("invalid")
-    @property
-    def stock(self):
-        return self.__stock
-
-    @stock.setter
-    def stock(self,new_stock):
-        if new_stock>0:
-            self.__stock=new_stock
-        else:
-            print("invalid")
-
-o=Product(124,123)
-print(o.price)
-print(o.stock)
-
-o.price=2
-o.stock=3
-print(o.price)
-print(o.stock)
+#
+# class Product:
+#     def __init__(self,price,stock):
+#         self.__price=price
+#         self.__stock=stock
+#
+#     @property
+#     def price(self):
+#         return self.__price
+#
+#     @price.setter
+#     def price(self,new_price):
+#         if new_price>0:
+#             self.__price=new_price
+#         else:
+#             print("invalid")
+#     @property
+#     def stock(self):
+#         return self.__stock
+#
+#     @stock.setter
+#     def stock(self,new_stock):
+#         if new_stock>0:
+#             self.__stock=new_stock
+#         else:
+#             print("invalid")
+#
+# o=Product(124,123)
+# print(o.price)
+# print(o.stock)
+#
+# o.price=2
+# o.stock=3
+# print(o.price)
+# print(o.stock)
 # 5. Write a Python program to demonstrate how super() can be used to call a parent class
 # constructor.
 # class Person:
