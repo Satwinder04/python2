@@ -5,9 +5,6 @@ syntax
 logic
 runtime
 '''
-
-
-
 # print("Starting")
 # print("Starting")
 # print(0/0)
@@ -94,28 +91,25 @@ finally: code that will run no matter what
 # class customError(Exception):
 #     pass
 
-
 # ________________________________________________________________________
-class NegetiveNumberError(Exception):
-    def __init__(self,msg="-ve value not allowed"):
-        self.msg=msg
-        super().__init__(self.msg)
-
-
-def chkPositive(n):
-    if n<0:
-        raise NegetiveNumberError()
-    else:
-        print("+ve")
-
-try:
-    num=int(input("enter n "))
-    chkPositive(num)
-except NegetiveNumberError as e:
-    print(e)
-except Exception as a:
-    print(a)
-
+# class NegetiveNumberError(Exception):
+#     def __init__(self,msg="-ve value not allowed"):
+#         self.msg=msg
+#         super().__init__(self.msg)
+# def chkPositive(n):
+#     if n<0:
+#         raise NegetiveNumberError()
+#     else:
+#         print("+ve")
+#
+# try:
+#     num=int(input("enter n "))
+#     chkPositive(num)
+# except NegetiveNumberError as e:
+#     print(e)
+# except Exception as a:
+#     print(a)
+#
 
 
 
